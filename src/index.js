@@ -1,9 +1,6 @@
 import React             from 'react';
 import ReactDOM          from 'react-dom';
 import { AppContainer }  from 'react-hot-loader';
-import { createStore }   from 'redux';
-import { Provider }      from 'react-redux';
-import { BrowserRouter } from 'react-router-dom';
 
 import Root              from './containers/Root';
 import store             from './store';
