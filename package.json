@@ -1,0 +1,8 @@
+{
+  "name": "base-react-app",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/itsthatguy/base-react-app",
+  "author": "Kevin Altman <kevin@itsthatguy.com>",
+  "license": "MIT"
+}
