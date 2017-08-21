@@ -8,7 +8,7 @@
   },
   "devDependencies": {
     "eslint-config-adorable": "^0.0.5",
-    "itg-react-scripts": "^0.0.3"
+    "itg-react-scripts": "^0.0.6"
   },
   "dependencies": {
     "axios": "^0.16.1",
