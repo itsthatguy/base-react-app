@@ -3,8 +3,9 @@ import ReactDOM          from 'react-dom';
 import { AppContainer }  from 'react-hot-loader';
 
 import Root              from './containers/Root';
-import store             from './store';
+import configureStore from './store';
 
+const store = configureStore();
 const rootEl = document.getElementById('root');
 
 const render = (Component) => {

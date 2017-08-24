@@ -6,11 +6,10 @@
   "scripts": {
     "start": "itg-react-scripts start"
   },
-  "devDependencies": {
-    "eslint-config-adorable": "^0.0.5",
-    "itg-react-scripts": "^0.0.6"
-  },
+  "devDependencies": { },
   "dependencies": {
+    "eslint-config-adorable": "^0.0.5",
+    "itg-react-scripts": "^0.0.14",
     "axios": "^0.16.1",
     "prop-types": "^15.5.8",
     "react": "^15.5.4",

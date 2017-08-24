@@ -1,8 +1,14 @@
-export default (state = { foos: [] }, action) => {
-  if (action.type === 'ADD_FOO') {
+import { ADD_FOO } from 'actions/foo';
+
+const initialState = {
+  foos: [],
+};
+
+export default (state = initialState, action) => {
+  if (action.type === ADD_FOO) {
     return {
       ...state,
-      todos: [...state.foos, action.foo],
+      foos: [...state.foos, 'foo'],
     };
   }
 

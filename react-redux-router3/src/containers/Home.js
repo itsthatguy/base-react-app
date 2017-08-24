@@ -1,6 +1,6 @@
-import React, { Component }   from 'react';
-import { connect }            from 'react-redux';
-import { Link }               from 'react-router';
+import React, { Component } from 'react';
+import { Link } from 'react-router';
+import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
 class Home extends Component {
