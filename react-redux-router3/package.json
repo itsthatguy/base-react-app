@@ -4,7 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "itg-react-scripts start"
+    "start": "itg-react-scripts start",
+    "heroku-prebuild": "rm -rf package-lock.json",
+    "heroku-postbuild": "itg-react-scripts build"
   },
   "devDependencies": {
     "enzyme": "^2.9.1",
